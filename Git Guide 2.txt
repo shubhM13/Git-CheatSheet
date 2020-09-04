@@ -1,0 +1,6 @@
+1) git clone --bare <repo url> .git  -> Creates a bare repository i.e, only with .git dir, no wrapper dir.
+2) git config --bool core.bare flase -> makes the repo a normal repo
+3) git reset --hard                  -> resets the  head pointer
+4) git branch                        -> shows all the branches of a project
+5) git checkout <branc_name>	     -> switches to the branch <branch_name>
+
